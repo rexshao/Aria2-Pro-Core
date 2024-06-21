@@ -24,7 +24,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        PLATFORMS: [amd64, arm64, armhf, i386]
+        PLATFORMS: [amd64]
         include:
         - PLATFORMS: amd64
           BUILDER_IMAGE: debian:12
